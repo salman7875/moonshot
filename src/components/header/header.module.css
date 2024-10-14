@@ -1,0 +1,26 @@
+.navbar {
+  height: 5vh;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navbar_header {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.navbar_list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.list_item_button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1.4rem;
+  cursor: pointer;
+}

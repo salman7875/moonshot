@@ -1,0 +1,89 @@
+.right_section {
+  flex: 2;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 2rem 4rem;
+  display: flex;
+  gap: 2rem;
+  color: var(--text);
+  background-color: var(--read-background);
+}
+
+.rightopen_figure {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 100%;
+  background-color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightopen_figure_img {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--background);
+}
+
+.rightopen_section {
+  flex: 10;
+  color: var(--text);
+  font-weight: 400;
+  line-height: 1.6;
+  overflow: scroll;
+}
+
+.rightopen_section::-webkit-scrollbar {
+  display: none;
+}
+
+.rightopen_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightopen_heading {
+  font-size: 2.6rem;
+}
+
+.rightopen_subheading {
+  font-size: 2.2rem;
+}
+
+.rightopen_heading > span, .rightopen_subheading > span {
+  font-weight: 500;
+}
+
+.rightopen_btn {
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  border: 1px solid var(--border);
+  background-color: var(--accent);
+  color: var(--background);
+  font-size: 1.4rem;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+.rightopen_btn:hover {
+  opacity: 0.8;
+}
+
+.rightopen_date {
+  margin: 3rem 0;
+  font-size: 1.6rem;
+}
+
+.rightopen_body {
+  font-size: 1.6rem;
+  color: var(--text);
+  font-weight: 500;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.rightopen_body > div > p {
+  margin-bottom: 1.4rem;
+  color: #888;
+}
